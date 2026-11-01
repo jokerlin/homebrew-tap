@@ -2,11 +2,11 @@
 cask "skill-manager" do
   arch arm: "arm64", intel: "x64"
 
-  version "0.5.5"
-  sha256 arm:   "3dda9771bbfa8afd487509fa971d6f4ae0781f28ef00832cc92a45fea9d576c9",
-         intel: "8697c277643982b551a6982b78cda7f9096fa17d655a40dc37d11772256f3238"
+  version "0.6.0"
+  sha256 arm:   "8cf64e52ab7b7ab6b4d9e524c8082f80eda764325fbef39ed8b20d23e73d1840",
+         intel: "2fea2e98f24877c19d41a9086980bf4dc0eb9c1153370016798200b5fcf7b82d"
 
-  url "https://github.com/jokerlin/skill-manager/releases/download/v0.5.5/skill-manager-#{version}-#{arch}-mac.zip"
+  url "https://github.com/jokerlin/skill-manager/releases/download/v0.6.0/skill-manager-#{version}-#{arch}-mac.zip"
   name "Skill Manager"
   desc "Manage agent skills across machines and harnesses"
   homepage "https://github.com/jokerlin/skill-manager"
