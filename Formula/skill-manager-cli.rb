@@ -6,23 +6,23 @@ class SkillManagerCli < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/jokerlin/skill-manager/releases/download/v0.5.2/skm-darwin-arm64"
-      sha256 "b826b25d4c0145e912e39d31d6da00f69d53047a942c1419a5cd6e4feba0ad4e"
+      url "https://github.com/jokerlin/skill-manager/releases/download/v0.5.3/skm-darwin-arm64"
+      sha256 "4b0801eb8682eb64ffd59de15c483433bf89e5b8acda83d00afcd261489a0dc9"
     end
     on_intel do
-      url "https://github.com/jokerlin/skill-manager/releases/download/v0.5.2/skm-darwin-x64"
-      sha256 "669d78cd0486fa9a2a8bbc580383521a911c5f165a5d7f4f3adde825accc9606"
+      url "https://github.com/jokerlin/skill-manager/releases/download/v0.5.3/skm-darwin-x64"
+      sha256 "8cde599a057a3dc86e3658a39eff177b9e85d49a205489cc23f448ca31a7f825"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/jokerlin/skill-manager/releases/download/v0.5.2/skm-linux-arm64"
-      sha256 "343ad5f79d107d8f4f8d56bdc23067b61c820c718472e77a23a8c4580981833b"
+      url "https://github.com/jokerlin/skill-manager/releases/download/v0.5.3/skm-linux-arm64"
+      sha256 "fac4818ad1df12ed1d9e0d7adaca24ede6d5625370fb04e95cc475f51d3a9647"
     end
     on_intel do
-      url "https://github.com/jokerlin/skill-manager/releases/download/v0.5.2/skm-linux-x64"
-      sha256 "86e2b8a54d453ec3beddfc8d723d283af1b3af3d1263cff2c6a391c8f4591d2a"
+      url "https://github.com/jokerlin/skill-manager/releases/download/v0.5.3/skm-linux-x64"
+      sha256 "f8bfd6b41185c0581f208f007d6602f0885e84d032d2f412214a65f5a916c840"
     end
   end
 
